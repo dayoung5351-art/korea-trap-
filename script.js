@@ -8,7 +8,6 @@ const WIDTH = 760, HEIGHT = 900;
 // Regions under these prefixes (wards, and outlying counties like 기장군/달성군/강화군/옹진군/울주군)
 // are merged into a single clickable shape for that city.
 const METRO_CODES = {
-  "11": "서울특별시",
   "21": "부산광역시",
   "22": "대구광역시",
   "23": "인천광역시",
