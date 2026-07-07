@@ -47,6 +47,7 @@ storeRef.on("value", (snapshot) => {
 });
 function getRegion(id, name){
   if(!store[id]) store[id] = { name, marked: false, records: [] };
+  if(!store[id].records) store[id].records = [];
   return store[id];
 }
 
